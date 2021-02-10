@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="#FrontWeek​​ - Projeto Spider-man Miles Morales" title="" src="https://github.com/jeanoliveira92/frontweekspidermanmilesmorales/blob/master/src/img/logo.svg" width="250px" />
+    <img alt="#FrontWeek​​ - Projeto Spider-man Miles Morales" title="" src="https://raw.githubusercontent.com/jeanoliveira92/frontweekspidermanmilesmorales/b1eeaeff5fc82e4ddb4aa16f7cff6fc49642bee8/src/img/logo.svg" width="250px" />
 </h1>
 
 <p align="center">
