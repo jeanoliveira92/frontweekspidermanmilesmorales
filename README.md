@@ -12,10 +12,10 @@
 <br>
 
 <p align="center">
-  <img alt="Loading" src="https://github.com/jeanoliveira92/frontweekspidermanmilesmorales/blob/master/src/img/screenshot.png" width="100%">
+  <img alt="Loading" src="https://raw.githubusercontent.com/jeanoliveira92/frontweekspidermanmilesmorales/main/src/img/screenshot.png" width="100%">
 </p>
 <p align="center">
-  <img alt="Homepage" src="https://github.com/jeanoliveira92/frontweekspidermanmilesmorales/blob/master/src/img/screenshot.gif" width="100%">
+  <img alt="Homepage" src="https://github.com/jeanoliveira92/frontweekspidermanmilesmorales/blob/main/src/img/screenshot.gif" width="100%">
 </p>
 
 ## :rocket: Tecnologias
