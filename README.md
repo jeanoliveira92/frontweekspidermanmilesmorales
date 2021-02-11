@@ -9,6 +9,10 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
+<p align="center">
+Professor [Násser Yousef Ali](https://github.com/nyousefali)
+</p>
+
 <br>
 
 <p align="center">
@@ -30,11 +34,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto frontweb de uma webpage com UI design e motion design com o tema Spider-man Miles Morales do PS5
 
-## Layout
+## 🔖 Layout
 
-O layout se encontra no figma. Basta acessar o link abaixo
-
-[Figma Projet: Spider-man Miles Morales](https://www.figma.com/file/7xpmZjyxjpn9hDU8RZB7P4/Spider-man-Copy?node-id=0%3A1)
+Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/7xpmZjyxjpn9hDU8RZB7P4/Spider-man-Copy?node-id=0%3A1). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
 ## :memo: Licença
 
