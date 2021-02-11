@@ -10,12 +10,12 @@
 </p>
 
 <p align="center">
+    :construction: #FrontWeek​​ - Projeto Spider-man Miles Morales<br>
+    :construction_worker: Professor: 
     <a href="https://github.com/nyousefali">
-    Professor: Násser Yousef Ali
+    Násser Yousef Ali
     </a>
 </p>
-
-<br>
 
 <p align="center">
   <img alt="Loading" src="https://raw.githubusercontent.com/jeanoliveira92/frontweekspidermanmilesmorales/main/src/img/screenshot.png" width="100%">
