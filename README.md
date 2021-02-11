@@ -10,7 +10,9 @@
 </p>
 
 <p align="center">
-Professor [Násser Yousef Ali](https://github.com/nyousefali)
+    <a href="https://github.com/nyousefali">
+    Professor: Násser Yousef Ali
+    </a>
 </p>
 
 <br>
