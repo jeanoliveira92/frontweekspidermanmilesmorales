@@ -1,0 +1,116 @@
+header {
+    width: 100%;
+    padding-top: 16px;
+}
+
+.navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .logo {
+            width: 88px;
+        }
+
+        .nav-list {
+            list-style: none;
+            display: flex;
+
+            li {
+                margin-left: 24px;
+
+                .nav-link {
+                    display: inline-block;
+
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    font-weight: 200;
+
+                    color: $gray-3;
+
+                    padding: 8px 16px;
+                    transition: 0.7s ease;
+                    position: relative;
+
+                    &::after {
+                        content: "";
+                        display: block;
+                        position: absolute;
+
+                        width: 2px;
+                        height: 0px;
+
+                        top: -40px;
+                        left: 50%;
+
+                        transition: 0.7s ease;
+
+                        background: linear-gradient(180deg, #0a0c10 0%, #ea1d22 100%);
+                    }
+
+                    &:hover {
+                        color: $white-light;
+
+                        &::after {
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+
+            @include responsive() {
+                display: none;
+            }
+        }
+    }
+
+    .nav-social {
+        display: flex;
+
+        svg {
+            cursor: pointer;
+            margin-left: 16px;
+            width: 24px;
+
+            path,
+            circle {
+                transition: 0.7s ease;
+            }
+
+            &:hover {
+                path,
+                circle {
+                    fill: $red-light;
+                    transform: translate3d(0, -3px, 0);
+                }
+            }
+        }
+
+        @include responsive() {
+            display: none;
+        }
+    }
+
+    .bx{
+        width: 48px;
+        height: 48px;
+        display: none;
+
+        background-color: $white;
+
+        border-radius: 8px;
+
+        @include responsive() {
+            display: block;
+        }
+    }
+}

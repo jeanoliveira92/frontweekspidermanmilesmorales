@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-man: Miles Moralles | PS5</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/svginject.min.js"></script>
+</head>
+
+<body>
+    <!-- ======= LOADER ======= -->
+
+    <section class="bg-loader">
+        <img src="src/img/logo-spiderman.svg" onload="SVGInject(this)" />
+    </section>
+
+    <!-- ======= HEADER ======= -->
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-menu">
+                <div class="logo">
+                    <img src="src/img/logo-spiderman.svg" onload="SVGInject(this)" />
+                </div>
+                <ul class="nav-list">
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">Story</a></li>
+                    <li><a href="" class="nav-link">Wallpapers</a></li>
+                    <li><a href="" class="nav-link">#BeYourself</a></li>
+                </ul>
+            </div>
+            <div class="nav-social">
+                <img src="src/img/icon-facebook.svg" alt="" onload="SVGInject(this)" />
+                <img src="src/img/icon-instagram.svg" alt="" onload="SVGInject(this)" />
+                <img src="src/img/icon-youtube.svg" alt="" onload="SVGInject(this)" />
+                <img src="src/img/icon-twitter.svg" alt="" onload="SVGInject(this)" />
+            </div>
+
+            <div class="bx mr-2"></div>
+        </nav>
+    </header>
+
+    <!-- ======= VIDEO =======-->
+    <section class="bg-video">
+        <video class="video" autoplay muted loop>
+            <source src="src/video/spiderman2.mp4" type="video/mp4" />
+        </video>
+    </section>
+    <!-- ======= CONTAINER ======= -->
+
+    <section class="container">
+        <div class="container-item-1">
+            <div class="px-1 item-1">
+                <img src="src/img/spiderman-text.png" alt="" onload="SVGInject(this)" />
+            </div>
+
+            <p class="my-2 item-2">
+                Miles Morales é um adolescente negro com ascendência hispânica, Miles é o segundo Homem-Aranha a
+                aparecer em Ultimate Marvel, e com uma continuação no Universo Marvel principal
+            </p>
+
+            <div class=" item-3">
+                <a href="" class="btn">Pre-order now</a>
+                <a href="" class="btn-secondary ml-2">Watch the teaser</a>
+            </div>
+
+            <div class="flex align-items-center mt-1  item-4">
+                <img src="src/img/ps.svg" class="w-auto" alt="" onload="SVGInject(this)" />
+                <img src="src/img/marvel.svg" class="w-auto ml-2" alt="" onload="SVGInject(this)" />
+            </div>
+        </div>
+
+        <div class="container-item-2  item-5">
+            <div class="js-tilt">
+                <img class="spiderman" src="src/img/spiderman.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= CONTAINER ======= -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+        crossorigin="anonymous"></script>
+    <script src="src/js/app.js"></script>
+
+    <script>
+        $('.js-tilt').tilt({
+            perspective: 2000,
+            scale: 1.05,
+        });
+    </script>
+
+</body>
+
+</html>

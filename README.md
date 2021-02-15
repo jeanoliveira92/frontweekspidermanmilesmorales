@@ -31,6 +31,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Scss](https://sass-lang.com/documentation/syntax)
+- [SVGInject](https://github.com/iconfu/svg-inject)
+- [Tilt.js](https://gijsroge.github.io/tilt.js)
+- [Greensock](https://greensock.com)
 
 ## 💻 Projeto
 
