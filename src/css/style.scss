@@ -29,6 +29,12 @@ body {
     overflow: hidden;
 
     background: $blue-dark;
+
+    
+    @include responsive() {
+        overflow: initial;
+        overflow-x: hidden;
+    }
 }
 
 img,
