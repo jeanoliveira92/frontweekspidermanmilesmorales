@@ -9,12 +9,16 @@
     flex-direction: row;
     align-items: center;
 
-    overflow: none;
-
     @include responsive() {
         flex-direction: column;
-        height: auto;
+        align-items: flex-start;
+        padding-top: 144px;
         overflow: hidden;
+        height: auto;
+    }
+
+    @include responsiveLg(){
+        max-width: 1200px;
     }
 
     .container-item-1 {

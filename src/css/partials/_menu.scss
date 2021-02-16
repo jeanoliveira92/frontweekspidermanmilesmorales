@@ -1,6 +1,8 @@
 header {
     width: 100%;
     padding-top: 16px;
+    position: fixed;
+    z-index: 999;
 }
 
 .navbar {
@@ -10,6 +12,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include responsiveLg(){
+        max-width: 1200px;
+    }
 
     .nav-menu {
         display: flex;
